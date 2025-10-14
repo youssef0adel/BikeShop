@@ -1,0 +1,27 @@
+.Qoute h1
+{
+    font-size: 6rem;
+}
+.Qoute button
+{
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.Qoute button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+@media(max-width:1024px)
+{
+    .Qoute h1
+{
+    font-size: 3rem;
+}
+}

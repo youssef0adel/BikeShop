@@ -1,0 +1,64 @@
+.user-image
+{
+    width: 5rem;
+    border-radius: 3rem 3rem 0 3rem;
+    
+}
+
+.quote-img
+{
+    position: absolute;
+    top: 0rem;
+    right: 0;
+}
+.carousel-control-ne
+{
+    position: absolute;
+    bottom: 0;
+    right: 0rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 5%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    filter: var(--bs-carousel-control-icon-filter);
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.carousel-control-pr
+{
+position: absolute;
+    bottom: 0;
+    right: 4rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 5%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    filter: var(--bs-carousel-control-icon-filter);
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.Reviews button
+{
+    border: none;
+    color: gainsboro;
+    padding: 0;
+    border-radius:0;
+    transition: .5s;
+}
+.Reviews button:hover
+{
+    background-color: transparent;
+}

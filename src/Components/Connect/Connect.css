@@ -1,0 +1,64 @@
+.Connect-caption
+{
+    width: 50%;
+}
+
+.Connect-inner ul
+{
+    display: flex;
+}
+button
+{
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    padding: 1rem 2rem ;
+    border-radius: 2rem;
+    transition: .5s;
+}
+ button:hover
+{
+    background-color: white;
+    color: #ff6600;
+}
+
+.Connect-inner .contain
+{
+    background-image: url(../../assets/box-bg-2.png);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 7rem 5rem;
+}
+
+li
+{
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+li:hover
+{
+    color:#ff6600;
+}
+
+@media(max-width:1024px)
+{
+    .Connect-inner .contain
+{
+    background-image: url(../../assets/box-bg-2.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.Connect-caption
+{
+    width: 100%;
+    text-align: center;
+}
+.Connect-inner ul
+{
+    display: none;
+}
+}

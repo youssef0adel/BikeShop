@@ -1,0 +1,35 @@
+.Questions-inner
+{
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+    transition: 1s;
+}
+.Questions-upper
+{
+    cursor: pointer;
+}
+.Questions-upper:focus-within + .Questions-inner {
+    position: static;
+    opacity: 1;
+  
+}
+.s-1
+{
+    color: white;
+    transition: .5s;
+}
+.s-1:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.Questions-upper:focus h6
+{
+    color: #ff6600;
+}
+.Questions-upper h6
+{
+    transition: .5s;
+}

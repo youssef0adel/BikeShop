@@ -1,0 +1,42 @@
+body
+{
+    
+ font-family: "DM Sans", sans-serif;
+ font-size: smaller;
+}
+
+:root
+{
+    --main-color:#ff6600;
+}
+
+.bg-main
+{
+    background-color: var(--main-color);
+}
+
+.text-main
+{
+    color: var(--main-color);
+}
+
+a
+{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+}
+.navLogo
+{
+    width: 7rem;
+}
+
+.bg-second
+{
+    background-color: #20202066;
+}

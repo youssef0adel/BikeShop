@@ -1,0 +1,15 @@
+.Questions2-img
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media(max-width:1024px)
+{
+    .Questions2-img
+{
+    position: static;
+    bottom: 0;
+    
+}
+}

@@ -1,0 +1,62 @@
+.home
+{
+    background-image: url(../../assets/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.homeBack
+{
+    z-index: 1;
+    position: absolute;
+    right: -10rem;
+    bottom: -25rem;
+}
+
+.home-image {
+  position: relative;
+  z-index: 22;
+}
+
+.homeBack {
+  position: absolute;
+  top: 0;
+  right: -15rem;
+  z-index: -1;
+  opacity: 1;
+}
+.home-caption h1 
+{
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+ .home-caption span
+ {
+  font-size: 3rem;
+ }
+
+ @media(max-width:1024px)
+ {
+  .home-caption h1 
+{
+  font-size: 3rem;
+  font-weight: 400;
+}
+ .home-caption span
+ {
+  font-size: 2rem;
+ }
+ .home
+{
+    background-size: 100% 100%;
+}
+ }
+
+ button
+ {
+  transition: .5s;
+  color: white;
+ }

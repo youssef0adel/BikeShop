@@ -1,0 +1,176 @@
+.Bestsellers-item
+{
+    background-color: rgba(59, 59, 59, 0.426);
+    border-radius: 0 100px 0 0;
+}
+
+.Bestsellers-item img
+{
+    right: -4rem;
+}
+.actions
+{
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .5s;
+}
+.Bestsellers-item:hover .actions
+{
+    opacity: 1;
+}
+
+.actions a:nth-child(1)::before
+{
+    content: "Add to love";
+    display: inline-block;
+    width: 5rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color:#ff6600;
+    color: white;
+    position: absolute;
+    border-radius: 3rem;
+    top: -1rem;
+    opacity: 0;
+    transition: .5s;
+    font-size: 0.8rem;
+
+}
+.actions a:hover:nth-child(1)::before
+{
+    opacity: 1;
+}
+.actions a:nth-child(2)::before
+{
+    content: "Add to compare";
+    display: inline-block;
+    width: 6rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color:#ff6600;
+    color: white;
+    position: absolute;
+    border-radius: 3rem;
+    top: -1rem;
+    left: -50%;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: .5s;
+    font-size: 0.7rem;
+
+}
+.actions a:hover:nth-child(2)::before
+{
+    opacity: 1;
+}
+.actions a:nth-child(3)::before
+{
+    content: "Quick view";
+    display: inline-block;
+    width: 5rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color:#ff6600;
+    color: white;
+    position: absolute;
+    border-radius: 3rem;
+    top: -1rem;
+    opacity: 0;
+    transition: .5s;
+    font-size: 0.8rem;
+
+}
+.actions a:hover:nth-child(3)::before
+{
+    opacity: 1;
+}
+
+.btn-hover
+{
+    transition: .5s;
+    color: white;
+}
+.btn-hover:hover
+{
+    background-color: white;
+    color: #ff6600;
+}
+.Bestsellers-item h2
+{
+    transition: .5s;
+}
+.Bestsellers-item:hover h2
+{
+    color: #ff6600;
+}
+
+.moto-1
+{
+    transform: translateX(-50rem);
+    transition: 1s;
+}
+
+.moto-button:hover .moto-1
+{
+    transform: translateX(3.2rem);
+}
+.moto-button:hover .moto-2
+{
+    opacity: 0;
+}
+
+.item-caption
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.Bestsellers .item .cap-1 p
+{
+    color: #ff6600;
+}
+.Bestsellers .item .cap-1 h2
+{
+    color: white;
+    transition: .5s;
+}
+.Bestsellers .item .cap-2
+{
+    background-color: #ff6600;
+    color: white;
+    transition: .5s;
+}
+
+.Bestsellers .item .cap-2:hover
+{
+    background-color: black;
+    color: #ff6600;
+}
+
+.Bestsellers .item-caption
+{
+    background-color: black;
+    transition: .5s;
+}
+.Bestsellers .item-caption:hover
+{
+    background-color: white;
+}
+.Bestsellers .item-caption:hover .cap-1 h2
+{
+    color: black;
+}
+
+.Bestsellers-item img
+{
+    transition: .5s;
+}
+.Bestsellers-item:hover img
+{
+    transform: translateX(-2.5rem);
+}

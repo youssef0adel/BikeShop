@@ -1,0 +1,68 @@
+.Bike-Services-img
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -4rem;
+    background-color: #ff6600;
+    border-radius: 50%;
+    width: 6rem;
+    padding: 1.5rem;
+}
+
+.Bike-Services-item img
+{
+    transition: .5s;
+}
+.Bike-Services-item:hover
+{
+    animation-name: ServicesAn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.Bike-Services-item:hover img
+{
+    transform: rotate(360deg);
+}
+
+.middle
+{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.middle .Bike-Services-item
+{
+background-color:#202020;
+}
+
+
+
+@media(max-width:1024px)
+{
+   .middle
+{
+    transform: scale(1);
+    
+} 
+}
+
+@keyframes ServicesAn
+{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-10px);}
+}
+.button button
+{
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    padding: 1rem 2rem ;
+    border-radius: 2rem;
+    transition: .5s;
+}
+.button button:hover
+{
+    background-color: white;
+    color: #ff6600;
+}

@@ -1,0 +1,29 @@
+.Subscribe h1 , .Subscribe span
+{
+    font-size: 6rem;
+}
+
+.Subscribe button
+{
+    color: white;
+    transition: .5s;
+}
+.Subscribe button:hover
+{
+    background-color: white;
+    color: #ff6600;
+}
+
+.Subscribe input:focus
+{
+    outline: 0;
+    background-color: white;
+}
+
+@media(max-width:1024px)
+{
+    .Subscribe h1 , .Subscribe span
+{
+    font-size: 3rem;
+}
+}

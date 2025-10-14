@@ -1,0 +1,41 @@
+footer .footer
+{
+    background-color: rgba(28, 28, 28, 0.579);
+}
+
+.footer .links li
+{
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.footer .links li i
+{
+    color: #ff6600;
+    transition: .5s;
+}
+
+.footer .links li:hover
+{
+    color: #ff6600;
+}
+
+.footer .links li:hover i
+{
+    color: white;
+}
+
+.footer .caption
+{
+    color: white;
+}
+
+.footer .caption h5:hover
+{
+    color: #ff6600;
+}
+.footer .caption h5
+{
+    transition: .5s;
+    cursor: pointer;
+}

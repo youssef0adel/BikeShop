@@ -1,0 +1,91 @@
+a
+{
+    color: #ffffff80;
+    transition: .5s;
+}
+
+a:hover
+{
+    color: white;
+    
+}
+
+nav
+{
+    background-color: rgba(0, 0, 0, 0.285);
+    
+}
+
+.navButtons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navButton
+{
+    border-radius: 2rem;
+    border: none;
+    padding: .5rem;
+    transition: .5s;
+    color: white;
+}
+
+.navButton a
+{
+    color: white;
+    transition: .5s;
+    
+}
+
+.navButton:hover {
+  background-color: white;
+  
+}
+
+.navButton:hover a {
+  color: var(--main-color);
+}
+
+.loveList a
+{
+    background-color: rgba(255,255,255,0.08);
+    border-radius:100px;
+}
+
+.active
+{
+    color: white;
+}
+
+.navLinks a
+{
+    position: relative;
+    display: block;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid var(--main-color);
+    border-top: none;
+   
+}
+
+
+@media(max-width:1024px)
+{
+   
+    nav
+    {
+        display: none;
+    }
+   
+}
+

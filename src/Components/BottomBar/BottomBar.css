@@ -1,0 +1,49 @@
+.BottomBar
+{
+    display: none;
+}
+
+@media(max-width:1024px)
+{
+    .BottomBar
+    {
+        display: block;
+    }
+}
+
+
+
+
+.BottomBar {
+  background-color: #1e1e1e;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.inner {
+  padding: 8px 0;
+}
+
+.item {
+  flex: 1;
+}
+
+.nav-item {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  padding: 0;
+}
+
+.nav-item i {
+  font-size: 18px;
+}
+
+.nav-item.active {
+  color: #ff6600;
+}
+
+.nav-item:hover {
+  color: #ff6600;
+}

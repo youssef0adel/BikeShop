@@ -1,0 +1,33 @@
+.aboutCaption li
+{
+    width: 50%;
+}
+.aboutCaption li span
+{
+    color: white;
+    transition: .5s;
+}
+.aboutCaption li:hover span
+{
+    color: #ff6600;
+    transform: scale(1.06);
+}
+.aboutCaption li i
+{
+    color: #ff6600;
+    transition: .5s;
+}
+
+.aboutCaption li span:hover i
+{
+    color: white;
+    
+} 
+
+@media(max-width:1024px)
+{
+    .aboutCaption li
+{
+    width: auto;
+}
+}
