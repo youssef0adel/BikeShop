@@ -10,7 +10,7 @@ const BottomBar = () => {
           
           <div className="item text-white">
             <NavLink 
-              to="/home" 
+              to="/" 
               className={({ isActive }) => 
                 `nav-item ${isActive ? "active" : ""}`
               }

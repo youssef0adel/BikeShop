@@ -1,33 +1,45 @@
-.aboutCaption li
-{
-    width: 50%;
-}
-.aboutCaption li span
-{
-    color: white;
-    transition: .5s;
-}
-.aboutCaption li:hover span
-{
-    color: #ff6600;
-    transform: scale(1.06);
-}
-.aboutCaption li i
-{
-    color: #ff6600;
-    transition: .5s;
+.aboutCaption li {
+  width: 50%;
+  list-style: none;
 }
 
-.aboutCaption li span:hover i
-{
-    color: white;
-    
-} 
+.list {
+  display: flex;
+  align-items: center;
+}
 
-@media(max-width:1024px)
-{
-    .aboutCaption li
-{
+.icon-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border: 3px solid #ff6600;
+  border-radius: 50%;
+  color: #ff6600;
+  transition: 0.4s;
+  flex-shrink: 0;
+}
+
+.aboutCaption li span {
+  color: white;
+  transition: 0.4s;
+  font-size: 1rem;
+}
+
+.aboutCaption li:hover span {
+  color: #ff6600;
+  transform: scale(1.04);
+}
+
+.aboutCaption li:hover .icon-circle {
+  background-color: #ff6600;
+  color: white;
+  border-color: white;
+}
+
+@media (max-width: 1024px) {
+  .aboutCaption li {
     width: auto;
-}
+  }
 }

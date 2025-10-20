@@ -65,7 +65,7 @@ nav
     display: block;
 }
 
-.active::before {
+nav .navLinks .active::before {
     content: "";
     position: absolute;
     bottom: 3px;

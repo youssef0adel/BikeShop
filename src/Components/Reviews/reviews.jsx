@@ -21,7 +21,7 @@ const Reviews = () => {
               </div>
             </div>
             <div className="caption">
-              <p className="h3 lh-lg">A bicycle, also called a pedal cycle, bike or cycle, is a human-powered or motor-powered assisted, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other. A bicycle rider is called a cyclist, or bicyclist.</p>
+              <p className="h3 lh-lg">A bicycle, also called a pedal cycle, bike or cycle, is a human-powered or motor-powered assisted, pedal-driven, single-track vehicle, </p>
                 
             </div>
           </div>
@@ -36,7 +36,7 @@ const Reviews = () => {
               </div>
             </div>
             <div className="caption">
-              <p className="h3 lh-lg">A bicycle, also called a pedal cycle, bike or cycle, is a human-powered or motor-powered assisted, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other. A bicycle rider is called a cyclist, or bicyclist.</p>
+              <p className="h3 lh-lg">A bicycle, also called a pedal cycle, bike or cycle, is a human-powered or motor-powered assisted, pedal-driven, single-track vehicle, </p>
 
             </div>
           </div>

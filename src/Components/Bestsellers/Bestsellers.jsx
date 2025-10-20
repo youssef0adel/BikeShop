@@ -24,7 +24,7 @@ const Bestsellers=()=>{
                             <p className="text-secondary">Specialized</p>
                             <div className="d-flex justify-content-around">
                                 <div className="price">
-                                    <span>$980</span> <span className="h3">$768</span>
+                                    <span className="text-decoration-line-through text-main">$980</span> <span className="h3">$768</span>
                                 </div>
                                 <button className="border-0 rounded-5 p-2  bg-main btn-hover"><i className="fa-solid fa-cart-shopping"></i>Add to cart</button>
                                 <div className="actions d-flex justify-content-around bg-dark bg-opacity-75 position-absolute rounded-5 ">

@@ -14,7 +14,7 @@ const Navbar=()=>{
             <div className="navLinks">
                 <ul className="d-flex justify-content-between align-items-center">
                     <li>
-                        <NavLink to="/home" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
+                        <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
                     </li>
                     <li>
                         <NavLink to="/services" className={({ isActive }) => isActive ? "active" : ""}>Services</NavLink>
@@ -32,11 +32,11 @@ const Navbar=()=>{
             </div>
             <div className="navButtons ">
                 <button type="button" className="navButton bg-main">
-                    <NavLink to="/services"> <i className="fa-solid fa-bicycle"></i> Help & Service</NavLink>
+                    <NavLink to=""> <i className="fa-solid fa-bicycle"></i> Help & Service</NavLink>
                 </button>
                 <div className="loveList d-flex justify-content-between">
-                    <NavLink className="ms-2"  to="/services"> <i className="fa-regular fa-heart"></i></NavLink>
-                    <NavLink className="ms-2" to="/services"> <i class="fa-solid fa-cart-shopping"></i></NavLink>
+                    <NavLink className="ms-2"  to=""> <i className="fa-regular fa-heart"></i></NavLink>
+                    <NavLink className="ms-2" to=""> <i class="fa-solid fa-cart-shopping"></i></NavLink>
                 </div>
             </div>
             

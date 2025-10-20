@@ -10,15 +10,17 @@ import FAQ from "./Components/Pages/FAQ";
 import Contact from "./Components/Pages/Contact";
 import BottomBar from "./Components/BottomBar/BottomBar";
 import Shop from "./Components/Pages/Shop";
+import Lodding from "./Components/Pages/Lodding";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <Lodding/>
       <Navbar/>
       <BottomBar/>
         <Routes>
-          <Route path="/home" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/services" element={<Services/>}/>
           <Route path="/faq" element={<FAQ/>}/>
           <Route path="/contact" element={<Contact/>}/>

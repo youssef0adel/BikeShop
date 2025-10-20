@@ -13,38 +13,60 @@ const Connect = () => {
                 At Velocity Cycles, we take pride in delivering <br /> top notch
                 services to keep your bike in peak condition
                 </p>
-                <ul className="justify-content-between flex-wrap p-0 w-75 py-3">
-                                    <li className=" mb-3 w-50">
-                                        <div className="list d-flex justify-content-between ">
-                                            <span className="h4 "><span className="border border-3 rounded-circle text-main px-1"><i className="fa-solid fa-check "> </i></span> Free test rides</span>
-                                        </div>
-                                    </li>
-                                    <li className=" mb-3">
-                                        <div className="list d-flex justify-content-between ">
-                                            <span className="h4 "><span className="border border-3 rounded-circle text-main px-1"><i className="fa-solid fa-check "> </i></span> Custom builds</span>
-                                        </div>
-                                    </li>
-                                    <li className=" mb-3">
-                                        <div className="list d-flex justify-content-between ">
-                                            <span className="h4 "><span className="border border-3 rounded-circle text-main px-1"><i className="fa-solid fa-check "> </i></span> Expert repairs</span>
-                                        </div>
-                                    </li>
-                                    <li className=" mb-3">
-                                        <div className="list d-flex justify-content-between ">
-                                            <span className="h4 "><span className="border border-3 rounded-circle text-main px-1"><i className="fa-solid fa-check "> </i></span> Custom builds</span>
-                                        </div>
-                                    </li>
-                                    <li className=" mb-3">
-                                        <div className="list d-flex justify-content-between ">
-                                            <span className="h4 "><span className="border border-3 rounded-circle text-main px-1"><i className="fa-solid fa-check "> </i></span> Gear upgrades</span>
-                                        </div>
-                                    </li>
-                                    <li className=" mb-3">
-                                        <div className="list d-flex justify-content-between ">
-                                            <span className="h4 "><span className="border border-3 rounded-circle text-main px-1"><i className="fa-solid fa-check "> </i></span> Free test rides</span>
-                                        </div>
-                                    </li>
+                <ul className="aboutCaption d-flex justify-content-between flex-wrap">
+                  <li className="p-2">
+                    <div className="list d-flex align-items-center">
+                      <span className="icon-circle me-2">
+                        <i className="fa-solid fa-check"></i>
+                      </span>
+                      <span>Free rides</span>
+                    </div>
+                  </li>
 
+                  <li className="p-2">
+                    <div className="list d-flex align-items-center">
+                      <span className="icon-circle me-2">
+                        <i className="fa-solid fa-check"></i>
+                      </span>
+                      <span>Custom builds</span>
+                    </div>
+                  </li>
+
+                  <li className="p-2">
+                    <div className="list d-flex align-items-center">
+                      <span className="icon-circle me-2">
+                        <i className="fa-solid fa-check"></i>
+                      </span>
+                      <span>Expert repairs</span>
+                    </div>
+                  </li>
+
+                  <li className="p-2">
+                    <div className="list d-flex align-items-center">
+                      <span className="icon-circle me-2">
+                        <i className="fa-solid fa-check"></i>
+                      </span>
+                      <span>Electric bulids</span>
+                    </div>
+                  </li>
+
+                  <li className="p-2">
+                    <div className="list d-flex align-items-center">
+                      <span className="icon-circle me-2">
+                        <i className="fa-solid fa-check"></i>
+                      </span>
+                      <span>Gear upgrades</span>
+                    </div>
+                  </li>
+
+                  <li className="p-2">
+                    <div className="list d-flex align-items-center">
+                      <span className="icon-circle me-2">
+                        <i className="fa-solid fa-check"></i>
+                      </span>
+                      <span>Electric bulids</span>
+                    </div>
+                  </li>
                 </ul>
                 <button className="mt-3">Order your Services <i className="fa-solid fa-right-long"></i></button>
             </div>

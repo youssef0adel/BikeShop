@@ -10,16 +10,16 @@ const Fotter = () => {
           <div className="container bg-second rounded-top-5 p-5">
             <div className="row gy-4">
               <div className="col-md-4 text-center d-flex flex-column align-items-center p-3">
-                <h4 className="text-main">Pre-sale Questions</h4>
-                <h3 className="text-white">youssefad888@gmail.com</h3>
+                <h4 className="text-main">Email</h4>
+                <h5 className="text-white">youssefad888@gmail.com</h5>
               </div>
               <div className="col-md-4 text-center d-flex flex-column align-items-center p-3">
                 <h4 className="text-main">Call Us</h4>
-                <h3 className="text-white">+02 1277840267</h3>
+                <h5 className="text-white">+02 1277840267</h5>
               </div>
               <div className="col-md-4 text-center d-flex flex-column align-items-center p-3">
                 <h4 className="text-main">Our Location</h4>
-                <h3 className="text-white">BeniSuief - Egypt</h3>
+                <h5 className="text-white">BeniSuief - Egypt</h5>
               </div>
             </div>
           </div>
@@ -141,9 +141,6 @@ const Fotter = () => {
                     <li className="mb-2 w-50 text-md-start text-center  fw-light">
                       <i className="fa-solid fa-right-from-bracket"> </i> News
                     </li>
-                    <li className="mb-2 w-50 text-md-start text-center  fw-light">
-                      <i className="fa-solid fa-right-from-bracket"> </i> Teams
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -171,7 +168,7 @@ const Fotter = () => {
               </div>
             </div>
           </div>
-          <div className="payment bg-second ">
+          <div className="payment bg-second text-center text-md-start mb-5 m-lg-0 ">
             <div className=" container d-block  d-md-flex justify-content-between align-items-center p-3">
               <div className="CopyRights">
                 <h6 className="text-secondary mb-0">
@@ -181,7 +178,7 @@ const Fotter = () => {
                 </h6>
               </div>
               <div className="payment-img">
-                <img src={paymentimg} alt="" />
+                <img className="w-100" src={paymentimg} alt="" />
               </div>
             </div>
           </div>
